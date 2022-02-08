@@ -1,1 +1,1 @@
-# smart-contract-solidity1
+## Small Solidity Smart Contract with Mocha Testing
