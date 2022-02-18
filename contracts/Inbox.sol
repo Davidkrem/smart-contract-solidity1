@@ -5,7 +5,7 @@ contract Inbox { // contract named Inbox
     string public message; // storage variable (instance variable) exist for life of contract
 
     function Inbox(string initialMessage) public { // The contructor if function has SAME syntax as contract name
-        message = initialMessage;
+        message = initialMessage; // message is a storage variable
     }
 
     function setMessage(string newMessage) public { //funcs that we can call, ON the contract...
